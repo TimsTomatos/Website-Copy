@@ -34,7 +34,7 @@
 }*/
 
 #bar {
-    padding: 0% 0% 0% 30%;
+    padding: 0% 0% 0% 28%;
 }
 
 #searchbar {
@@ -65,8 +65,8 @@
 }
 
 #fBorder {
-    border-bottom: 1px black;
-    border-top: 1px black;
+    border-bottom: 1px #666;
+    border-top: 1px #666;
     border-style: solid;
     width: auto;
 
@@ -75,21 +75,24 @@
 .fpartAbout {
     float: left;
     width: 10%;
-    color: black;
+    color: #666;
+    text-decoration: none;
 }
 
 .fpartAd {
     margin-left: -50%;
     float: left;
     width: 25%;
-    color: black;
+    color: #666;
+    text-decoration: none;
 
 }
 
 .fpartBusiness {
     float: left;
     width: 10%;
-    color: black;
+    color: #666;
+    text-decoration: none;
 
 }
 
@@ -99,7 +102,36 @@
 }
 
 #footerII {
-	word-spacing: 10%
-	margin-right: 10%;
+    text-align: right;
+    margin: 0px auto;
+    padding: 0px 0px 0px 50px;
+    width: 600px;
+    text-decoration: none;
 
 }
+
+.fpartT {
+    margin-right: -7%;
+    float: right;
+    width: 0%;
+    color: #666;
+    text-decoration: none;
+    
+}
+
+.fpartP {
+    margin-right: -40%;
+    float: left;
+    width: 75%;
+    color: #666;
+    text-decoration: none;
+
+}
+
+.fpartS {
+    margin-right: -40%;
+    float: right;
+    width: 25%;
+    color: #666;
+    text-decoration: none;
+    }
